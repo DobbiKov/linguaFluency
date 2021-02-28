@@ -6,4 +6,3 @@ C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaF
 C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Domain\obj\Debug\netcoreapp3.1\LinguaFluency.Domain.AssemblyInfo.cs
 C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Domain\obj\Debug\netcoreapp3.1\LinguaFluency.Domain.dll
 C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Domain\obj\Debug\netcoreapp3.1\LinguaFluency.Domain.pdb
-C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Domain\obj\Debug\netcoreapp3.1\LinguaFluency.Domain.csproj.CoreCompileInputs.cache

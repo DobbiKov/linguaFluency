@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LinguaFluency.Domain.Interfaces
 {
-    public interface IUserService
+    public interface IUserRepository
     {
         Task<ActionResult<IEnumerable<User>>> GetUsersAsync();
         Task<ActionResult<User>> GetUserAsync(Guid id);

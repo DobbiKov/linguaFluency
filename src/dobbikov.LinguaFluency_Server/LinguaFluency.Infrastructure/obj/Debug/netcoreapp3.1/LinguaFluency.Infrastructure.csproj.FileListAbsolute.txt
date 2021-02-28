@@ -12,4 +12,3 @@ C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaF
 C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.dll
 C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.pdb
 C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.genruntimeconfig.cache
-C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.csproj.CoreCompileInputs.cache
