@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+gaJbUFjq5JN+QIebSJ7C2dbKrNNoH2Kyp1ohWWZ9cJhAclDrMR46ryZe+IuHVMtXjoyXbz/0K5KC/1iniXQ4A==",
+  "dgSpecHash": "0jVtOdMnIFUnciFKmpVAr/I24JhoaG+Seo/vnVsqTyw0kw+o/A7usggN6Goy0C23J6/CTh7447TyZHjN0JFC9g==",
   "success": true,
   "projectFilePath": "C:\\Егор\\работа\\programming\\progr\\projects\\Fluency\\src\\dobbikov.LinguaFluency_Server\\LinguaFluency.Application\\LinguaFluency.Application.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.12\\microsoft.entityframeworkcore.3.1.12.nupkg.sha512",
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.12\\microsoft.entityframeworkcore.abstractions.3.1.12.nupkg.sha512",
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.12\\microsoft.entityframeworkcore.analyzers.3.1.12.nupkg.sha512",
+    "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.12\\microsoft.entityframeworkcore.inmemory.3.1.12.nupkg.sha512",
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.12\\microsoft.entityframeworkcore.relational.3.1.12.nupkg.sha512",
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.12\\microsoft.extensions.caching.abstractions.3.1.12.nupkg.sha512",
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.12\\microsoft.extensions.caching.memory.3.1.12.nupkg.sha512",

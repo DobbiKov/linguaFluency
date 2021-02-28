@@ -17,7 +17,7 @@ namespace LinguaFluency.Infrastructure.Migrations
                     LastName = table.Column<string>(nullable: true),
                     Password = table.Column<string>(nullable: true),
                     DateOfRegister = table.Column<string>(nullable: true),
-                    LastActive = table.Column<DateTime>(nullable: false)
+                    LastActive = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

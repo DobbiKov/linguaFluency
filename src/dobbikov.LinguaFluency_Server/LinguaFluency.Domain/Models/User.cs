@@ -12,6 +12,6 @@ namespace LinguaFluency.Domain.Models
         public string LastName { get; set; }
         public string Password { get; set; }
         public string DateOfRegister { get; set; }
-        public DateTime LastActive { get; set; }
+        public string LastActive { get; set; }
     }
 }

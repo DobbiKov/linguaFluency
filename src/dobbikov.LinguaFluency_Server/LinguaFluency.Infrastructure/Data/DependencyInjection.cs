@@ -11,9 +11,17 @@ namespace LinguaFluency.Infrastructure.Data
     {
         public static IServiceCollection AddPersistence(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<AppDbContext>(options =>
+            /*if (configuration.GetValue<bool>("UseInMemoryDatabase"))
+            {
+                services.AddDbContext<AppDbContext>(options =>
+                    options.UseInMemoryDatabase("DefaultConnection"));
+            }
+            else
+            {*/
+                services.AddDbContext<AppDbContext>(options =>
                 options.UseMySql(
-                    configuration.GetConnectionString("DefaultConnection")));
+                    configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName)));
+            /*}*/
             return services;
         }
     }

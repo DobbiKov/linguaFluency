@@ -171,3 +171,4 @@ C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaF
 C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll

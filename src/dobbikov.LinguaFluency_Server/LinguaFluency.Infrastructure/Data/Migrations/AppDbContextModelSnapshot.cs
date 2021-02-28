@@ -29,8 +29,8 @@ namespace LinguaFluency.Infrastructure.Migrations
                     b.Property<string>("FirstName")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<DateTime>("LastActive")
-                        .HasColumnType("datetime(6)");
+                    b.Property<string>("LastActive")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.Property<string>("LastName")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
