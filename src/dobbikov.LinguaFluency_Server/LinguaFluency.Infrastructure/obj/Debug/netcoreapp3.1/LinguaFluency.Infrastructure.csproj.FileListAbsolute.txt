@@ -1,0 +1,15 @@
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\bin\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.deps.json
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\bin\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.dll
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.csprojAssemblyReference.cache
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.AssemblyInfoInputs.cache
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.AssemblyInfo.cs
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\bin\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.runtimeconfig.json
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\bin\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.runtimeconfig.dev.json
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\bin\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.pdb
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\bin\Debug\netcoreapp3.1\LinguaFluency.Domain.dll
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\bin\Debug\netcoreapp3.1\LinguaFluency.Domain.pdb
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.csproj.CopyComplete
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.dll
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.pdb
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.genruntimeconfig.cache
+C:\Егор\работа\programming\progr\projects\Fluency\src\dobbikov.LinguaFluency_Server\LinguaFluency.Infrastructure\obj\Debug\netcoreapp3.1\LinguaFluency.Infrastructure.csproj.CoreCompileInputs.cache

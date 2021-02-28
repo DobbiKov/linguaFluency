@@ -10,6 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using LinguaFluency.Infrastructure.Data;
+using LinguaFluency.Domain.Interfaces;
+using LinguaFluency.Application.Services;
 
 namespace LinguaFluency.Api
 {
@@ -25,6 +28,10 @@ namespace LinguaFluency.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddPersistence(Configuration);
+
+            services.AddTransient<IUserService, UserService>();
+
             services.AddControllers();
         }
 
