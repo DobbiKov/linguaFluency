@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using LinguaFluency.Infrastructure.Data;
 using LinguaFluency.Domain.Interfaces;
 using LinguaFluency.Application.Services;
+using LinguaFluency.Infrastructure.Services;
 
 namespace LinguaFluency.Api
 {
@@ -29,8 +30,9 @@ namespace LinguaFluency.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddPersistence(Configuration);
+            services.AddServices();
 
-            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IUserRepository, UserRepository>();
 
             services.AddControllers();
         }

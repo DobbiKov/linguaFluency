@@ -1,7 +1,9 @@
 ﻿using LinguaFluency.Application.Exeptions;
 using LinguaFluency.Domain.Interfaces;
+using LinguaFluency.Domain.ServiceIntefraces;
 using LinguaFluency.Domain.Models;
 using LinguaFluency.Infrastructure.Data;
+using LinguaFluency.Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,12 +13,14 @@ using System.Threading.Tasks;
 
 namespace LinguaFluency.Application.Services
 {
-    public class UserService : IUserService
+    public class UserRepository : IUserRepository
     {
         private readonly AppDbContext _context;
-        public UserService(AppDbContext context)
+        private readonly IUserService userService;
+        public UserRepository(AppDbContext context, IUserService _us)
         {
             _context = context;
+            userService = _us;
         }
 
         public async Task<ActionResult<User>> CreateUserAsync(User user)
@@ -27,6 +31,8 @@ namespace LinguaFluency.Application.Services
             {
                 throw new BadRequestException("User with this username is exist.");
             }
+
+            user.Password = userService.PasswordToHash(user.Password);
 
             _context.users.Add(user);
             await _context.SaveChangesAsync();

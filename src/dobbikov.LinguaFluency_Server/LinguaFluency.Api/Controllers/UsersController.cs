@@ -15,24 +15,24 @@ namespace LinguaFluency.Api.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        IUserService userService;
-        public UsersController(IUserService _us)
+        private readonly IUserRepository userRepository;
+        public UsersController(IUserRepository _ur)
         {
-            userService = _us;
+            userRepository = _ur;
         }
 
         // GET: api/Users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> Getusers()
         {
-            return await userService.GetUsersAsync();
+            return await userRepository.GetUsersAsync();
         }
 
         // GET: api/Users/5
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(Guid id)
         {
-            return await userService.GetUserAsync(id);
+            return await userRepository.GetUserAsync(id);
         }
 
         // PUT: api/Users/5
@@ -41,7 +41,7 @@ namespace LinguaFluency.Api.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser(Guid id, User user)
         {
-            return await userService.UpdateUserAsync(id, user);
+            return await userRepository.UpdateUserAsync(id, user);
         }
 
         // POST: api/Users
@@ -50,14 +50,14 @@ namespace LinguaFluency.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
-            return await userService.CreateUserAsync(user);
+            return await userRepository.CreateUserAsync(user);
         }
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<User>> DeleteUser(Guid id)
         {
-            return await userService.DeleteUserAsync(id);
+            return await userRepository.DeleteUserAsync(id);
         }
     }
 }
