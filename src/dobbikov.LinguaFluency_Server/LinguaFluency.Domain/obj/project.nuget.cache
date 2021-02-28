@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YxVjMZP5uD4R2aT0PqDksltqg10gNaYRCqj3jebUFsSPOCq3GN0u1TTKTz3kzijMJDXdcavqXT0boDTzsJ5jZg==",
+  "dgSpecHash": "XT77a7KJs6J8CyKrTWhNItQkftGx8Dyx6XfsZ0r/hjLfz6wznDtfK868FQ0axOqweFqqCoOLIHpFiBd8hnyBsg==",
   "success": true,
   "projectFilePath": "C:\\Егор\\работа\\programming\\progr\\projects\\Fluency\\src\\dobbikov.LinguaFluency_Server\\LinguaFluency.Domain\\LinguaFluency.Domain.csproj",
   "expectedPackageFiles": [
@@ -68,6 +68,8 @@
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.extensions.options\\2.2.0\\microsoft.extensions.options.2.2.0.nupkg.sha512",
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.extensions.webencoders\\2.2.0\\microsoft.extensions.webencoders.2.2.0.nupkg.sha512",
+    "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.identitymodel.logging\\6.8.0\\microsoft.identitymodel.logging.6.8.0.nupkg.sha512",
+    "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\DobbiKov\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

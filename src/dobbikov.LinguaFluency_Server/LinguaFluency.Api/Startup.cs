@@ -30,11 +30,19 @@ namespace LinguaFluency.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddPersistence(Configuration);
-            services.AddServices();
+            services.AddServices(Configuration);
 
             services.AddTransient<IUserRepository, UserRepository>();
 
             services.AddControllers();
+
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,9 +54,12 @@ namespace LinguaFluency.Api
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseCors();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
